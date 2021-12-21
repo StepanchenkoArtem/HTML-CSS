@@ -1,0 +1,544 @@
+*{
+  font-family: 'Caveat', cursive;
+}
+@media screen and (max-width: 729px) {
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        font-size: 32px;
+    }
+    b{
+        color: red;
+    }
+    a {
+      background-color: transparent;
+    }
+    a:active,
+    a:hover {
+      outline: 0;
+    }
+    .section {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .PC {
+        display: unset;
+    }
+    .slider,
+    .calories,
+    hr,
+    br{
+      display: none;
+    }
+
+    .nav{
+        display: flex;
+    }
+    .nav a {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .variants{
+        display: unset !important;
+        margin-right: 10px;
+    }
+    .button{
+      display: inline-block;
+      height: 38px;
+      padding: 0 30px;
+      color: #555;
+      text-align: center;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 38px;
+      letter-spacing: .1rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      background-color: transparent;
+      border-radius: 4px;
+      border: 1px solid #bbb;
+      cursor: pointer;
+      box-sizing: border-box; }
+    .button:hover,
+    .button:focus{
+      color: #333;
+      border-color: #888;
+      outline: 0; 
+    }
+    .buttons{
+      display: none;
+    }
+    
+    
+    .button {
+      background-color: rgba(225,225,225,.4);
+      border: none;
+      width: 100%;
+      min-width: 150px;
+      max-width: 700px;
+      margin-top: 10px;
+    }
+    .button:hover {
+      background-color: rgba(225,225,225,.8);
+    }
+
+    .photo4,
+    .photo5,
+    .photo6,
+    .photo7,
+    .photo8,
+    .photo9{ 
+        display: none;
+    }
+
+    img{
+        margin-top: 10px;
+        border-radius: 5px;
+        width: 100%;
+        min-width: 150px;
+        max-width: 700px;
+    }
+    .contact{
+    display: flex;
+    flex-wrap: wrap;
+    width: 145px;
+    }
+
+    #c:checked ~ .photo1{
+      display: none;
+    }
+    #c:checked ~ .photo3{
+      display: none;
+    }
+    #c:checked ~ .photo5{
+      display: none;
+    }
+    #c:checked ~ .photo6{
+      display: none;
+    }
+    #c:checked ~ .photo8{
+      display: none;
+    }
+
+
+    #f:checked ~ .photo1{
+      display: block;
+    }
+    #f:checked ~ .photo2{
+      display: block;
+    }
+    #f:checked ~ .photo3{
+      display: block;
+    }
+
+}
+@media screen and (min-width: 730px) {
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        font-size: 32px;
+    }
+    b{
+        color: red;
+    }
+    a {
+      background-color: transparent;
+    }
+    a:active,
+    a:hover {
+      outline: 0;
+    }
+    .section {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .PC {
+        display: unset;
+    }
+    .slider,
+    .calories,
+    hr,
+    br,
+    .photo7,
+    .photo8,
+    .photo9{
+      display: none;
+    }
+    .nav a {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .variants{
+        display: flex;
+    }
+    .variants a{
+        margin-right: 10px;
+    }
+    .button{
+      display: inline-block;
+      height: 38px;
+      padding: 0 30px;
+      color: #555;
+      text-align: center;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 38px;
+      letter-spacing: .1rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      background-color: transparent;
+      border-radius: 4px;
+      border: 1px solid #bbb;
+      cursor: pointer;
+      box-sizing: border-box; }
+    .button:hover,
+    .button:focus{
+      color: #333;
+      border-color: #888;
+      outline: 0; 
+    }
+    .buttons{
+      display: none;
+    }
+    
+    .button {
+      background-color: rgba(225,225,225,.4);
+      border: none;
+      width: 100%;
+      min-width: 150px;
+      max-width: 307px;
+      margin-top: 10px;
+    }
+    
+    .button:hover {
+      background-color: rgba(225,225,225,.8);
+    }
+
+    .menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .photo1,
+    .photo2,
+    .photo3,
+    .photo4,
+    .photo5,
+    .photo6
+     {
+        background-color: #d5d4d4;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-right: 10px;
+        width: 95%;
+        min-width: 200px;
+        max-width: 300px;
+        height: 260px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo1:hover,
+    .photo2:hover,
+    .photo3:hover,
+    .photo4:hover,
+    .photo5:hover,
+    .photo6:hover {
+      box-shadow: 5px 5px 5px #888;
+    }
+
+
+    img{
+        margin-top: 10px;
+        border-radius: 5px;
+        width: 95%;
+        min-width: 150px;
+        max-width: 275px;
+        height: 100%;
+        min-height: 150px;
+        max-height: 200px;
+    }
+    .contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+
+    #c:checked ~ .photo1{
+      display: none;
+    }
+    #c:checked ~ .photo3{
+      display: none;
+    }
+    #c:checked ~ .photo5{
+      display: none;
+    }
+    #c:checked ~ .photo6{
+      display: none;
+    }
+    #c:checked ~ .photo9{
+      display: none;
+    }
+    #c:checked ~ .photo8{
+      display: none;
+    }
+
+    #c ~ .photo1,.photo3,.photo5,.photo6{
+      display: flex;
+    }
+    #f:checked ~ .photo1{
+      display: flex;
+    }
+    #f:checked ~ .photo2{
+      display: flex;
+    }
+    #f:checked ~ .photo3{
+      display: flex;
+    }
+    #f:checked ~ .photo4{
+      display: flex;
+    }
+    #f:checked ~ .photo5{
+      display: flex;
+    }
+    #f:checked ~ .photo6{
+      display: flex;
+    }
+}
+@media screen and (min-width: 1200px) {
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        font-size: 32px;
+    }
+    b{
+        color: red;
+    }
+    a {
+      background-color: transparent;
+    }
+    a:active,
+    a:hover {
+      outline: 0;
+    }
+    .section {
+      min-width: 1200px;
+    }
+    .PC {
+    display: flex;
+    flex-direction: row-reverse;
+    }
+    .slider,
+    .calories,
+    hr,
+    br{
+      display: block;
+    }
+
+    .nav {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    width: 230px;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 10px;
+    }
+    .nav a {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .variants{
+        display: grid;
+        width: 160px;
+    }
+    .button{
+      display: inline-block;
+      height: 38px;
+      padding: 0 30px;
+      color: #555;
+      text-align: center;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 38px;
+      letter-spacing: .1rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      white-space: nowrap;
+      background-color: transparent;
+      border-radius: 4px;
+      border: 1px solid #bbb;
+      cursor: pointer;
+      box-sizing: border-box; }
+    .button:hover,
+    .button:focus{
+      color: #333;
+      border-color: #888;
+      outline: 0; 
+    }
+    .buttons{
+      display: none;
+    }
+    
+    
+    .button {
+      background-color: rgba(225,225,225,.4);
+      border: none;
+      width: 100%;
+      min-width: 150px;
+      max-width: 307px;
+      margin-top: 25px;
+    }
+    .button:hover {
+      background-color: rgba(225,225,225,.8);
+    }
+
+    .menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .photo1,
+    .photo2,
+    .photo3,
+    .photo4,
+    .photo5,
+    .photo6,
+    .photo7,
+    .photo8,
+    .photo9 {
+        background-color: #d5d4d4;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-right: 55px;
+        width: 95%;
+        min-width: 200px;
+        max-width: 300px;
+        height: 235px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .photo1:hover,
+    .photo2:hover,
+    .photo3:hover,
+    .photo4:hover,
+    .photo5:hover,
+    .photo6:hover,
+    .photo7:hover,
+    .photo8:hover,
+    .photo9:hover {
+      box-shadow: 5px 5px 5px #888;
+    }
+
+    img{
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        width: 100%;
+        min-width: 100px;
+        max-width: 135px;
+        height: 100%;
+        min-height: 100px;
+        max-height: 135px;
+    }
+
+    img ~ p{
+      margin-left: 10px;
+    }
+
+    img + p{
+      position: absolute;
+      margin-left: 155px;
+    }
+
+    hr {
+      width: 298px;
+      background-color: #d9d9d9;
+      margin-bottom: 0px;
+    }
+
+    .calories{
+      margin-top: 8px;
+    }
+
+    .contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .slidecontainer {
+        width: 100%;
+      }
+      
+      .slider-text{
+        margin: 10px 0px 30px 0px;
+      }
+      [type=range] {
+        margin: 0px 0px 25px 0px;
+      }
+      
+      .slider:hover {
+        opacity: 1;
+      }
+      
+      #c:checked ~ .photo1{
+        display: none;
+      }
+      #c:checked ~ .photo3{
+        display: none;
+      }
+      #c:checked ~ .photo5{
+        display: none;
+      }
+      #c:checked ~ .photo6{
+        display: none;
+      }
+      #c:checked ~ .photo9{
+        display: none;
+      }
+      #c:checked ~ .photo8{
+        display: none;
+      }
+
+      #c ~ .photo1,.photo3,.photo5,.photo6,.photo9{
+        display: flex;
+      }
+      #f:checked ~ .photo1{
+        display: flex;
+      }
+      #f:checked ~ .photo2{
+        display: flex;
+      }
+      #f:checked ~ .photo3{
+        display: flex;
+      }
+      #f:checked ~ .photo4{
+        display: flex;
+      }
+      #f:checked ~ .photo5{
+        display: flex;
+      }
+      #f:checked ~ .photo6{
+        display: flex;
+      }
+      #f:checked ~ .photo7{
+        display: flex;
+      }
+      #f:checked ~ .photo8{
+        display: flex;
+      }
+      #f:checked ~ .photo9{
+        display: flex;
+      }
+}
